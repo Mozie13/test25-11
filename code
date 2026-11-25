@@ -1,0 +1,4 @@
+st.title("Mijn eerste webapp")
+naam = st.text_input("Tristan")
+if naam:
+    st.write(f"Hallo, {naam}!")
